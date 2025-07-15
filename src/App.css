@@ -271,3 +271,71 @@ body {
     padding: 0.2rem 0.5rem;
   }
 }
+.flex-container{
+  display: flex;
+  gap:20px;
+
+}
+.image1{
+  width:440px;
+  height:363px;
+  margin-left:770px;
+  margin-top: -270px;
+}
+.image2{
+  width:130px;
+  height:130px;
+  margin-left:1080px;
+  margin-top:-400px;
+  margin-bottom: 30px;
+}
+.card{
+  margin-left:90px;
+  justify-content: space-around;
+  gap:10px;
+  margin-top: 60px;
+  size:50px;
+}
+.btn1{
+  border-radius: 5px;
+  color:greenyellow;
+  background-color: white;
+  border-color: greenyellow;
+  padding: 5px 5px;
+  margin-top: 20px;
+}
+.btn2{
+  border-radius: 5px;
+  background-color:greenyellow;
+  color:white;
+  margin-left: 35px;
+  padding: 5px 5px;
+  margin-top: 20px;
+}
+.text1 {
+  color:#83C727;
+  font-weight: 700;
+  margin-top: 10px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text2{
+  color:#004B2F;
+  font-weight: 800;
+  size:64px;
+  size:32px;
+  margin-top: 20px;
+}
+
+
+.text3{
+  color:#D49104;
+  font-weight: 500;
+  size:24px;
+  margin-top: 20px;
+}
+  
+
+
+
