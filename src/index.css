@@ -90,7 +90,6 @@ button:focus-visible {
   align-items: center;
 }
 
-/* Common nav link styling */
 .nav-link {
   text-decoration: none;
   color: #333;
@@ -98,13 +97,11 @@ button:focus-visible {
   font-weight: 400;
 }
 
-/* Green Home link specifically */
 .home-link {
-  color: #6BCB4B; /* Light green */
+  color: #6BCB4B;
   font-weight: 600;
 }
 
-/* Button style for All Students */
 .nav-button {
   padding: 6px 16px;
   border: 2px solid #6BCB4B;
