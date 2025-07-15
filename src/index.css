@@ -66,3 +66,58 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Common nav link styling */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Green Home link specifically */
+.home-link {
+  color: #6BCB4B; /* Light green */
+  font-weight: 600;
+}
+
+/* Button style for All Students */
+.nav-button {
+  padding: 6px 16px;
+  border: 2px solid #6BCB4B;
+  border-radius: 6px;
+  color: #6BCB4B;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #6BCB4B;
+  color: white;
+}
+
