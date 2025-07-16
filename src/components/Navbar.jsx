@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <img
-          src="public/Logo SMAIT.svg"
+          src="Logo SMAIT.svg"
           alt="STUDENTSYNC Logo"
           className="logo"
         />
