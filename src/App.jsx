@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import StudentList from "./pages/StudentList";
 import "./App.css";
 import AddStudent from "./pages/AddStudent";
-import Hello from "./Hello";
+import Info from "./components/Info";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
           </Routes>
         </main>
         <AddStudent />
-        <Hello />
+        <Info />
       </div>
     </Router>
   );
