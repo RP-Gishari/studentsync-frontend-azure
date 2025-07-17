@@ -78,7 +78,8 @@ button:focus-visible {
   color: #83c727;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
+
 }
 
 .managements {
@@ -86,7 +87,8 @@ button:focus-visible {
   font-weight: 600;
   color: #004b2f;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  margin-left: 80px;
 }
 
 .allCards {
@@ -140,10 +142,14 @@ button:focus-visible {
   
 }
 .thirdCard{
-  margin-top: -260px;
+  margin-top: -267px;
   margin-left: 750px;
   width: 350px;
   height: 220px;
+  /* Width:517px;
+  Height:288px; */
+   Border-radius:16px;
+   
   
   
 }
