@@ -1,3 +1,4 @@
+/* Reset and Global */
 * {
   margin: 0;
   padding: 0;
@@ -9,15 +10,14 @@ html {
 }
 
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #f8f7fd;
   color: #2d2d2d;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  max-width: 100%;
 }
 
+/* Responsive touch adjustments */
 @media (hover: none) and (pointer: coarse) {
   .nav-link,
   .view-link,
@@ -30,13 +30,15 @@ body {
   }
 }
 
+/* App layout */
 .app-container {
   min-height: 100vh;
 }
 
+/* Navigation */
 .navbar {
-  background-color: #ffffff;
-  width: 100vw;
+  background-color: #604848;
+  width: 100%; /* changed from 100vw */
   box-shadow: 0 4px 6px rgba(107, 70, 193, 0.06);
   padding: 1rem 0;
   position: sticky;
@@ -102,12 +104,14 @@ body {
   box-shadow: 0 4px 12px rgba(107, 70, 193, 0.15);
 }
 
+/* Content */
 .main-content {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* Welcome banner */
 .welcome-banner {
   background: linear-gradient(135deg, #6b46c1, #805ad5);
   color: white;
@@ -128,8 +132,10 @@ body {
   opacity: 0.9;
 }
 
+/* Student list */
 .student-list-container {
   padding: 1rem;
+  overflow-x: auto; /* make it scrollable on small screens */
 }
 
 .student-list {
@@ -150,6 +156,8 @@ body {
 .student-table {
   width: 100%;
   border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
 }
 
 .student-table th,
@@ -157,6 +165,7 @@ body {
   padding: 1rem;
   text-align: left;
   border-bottom: 1px solid #e5e7eb;
+  min-width: 120px;
 }
 
 .student-table th {
@@ -170,6 +179,7 @@ body {
   background-color: #f8f7fd;
 }
 
+/* View links */
 .view-link {
   color: #6b46c1;
   text-decoration: none;
@@ -181,9 +191,9 @@ body {
 
 .view-link:hover {
   background-color: #f8f7fd;
-  text-decoration: none;
 }
 
+/* Media Queries */
 @media (max-width: 1024px) {
   .main-content {
     padding: 1.5rem;
@@ -202,20 +212,16 @@ body {
   .nav-content {
     padding: 0 1rem;
   }
-
-  .welcome-banner {
-    padding: 2rem 1rem;
+.welcome-banner {
+ padding: 2rem 1rem;
   }
-
-  .welcome-banner h1 {
+.welcome-banner h1 {
     font-size: 1.75rem;
   }
-
-  .welcome-banner p {
+.welcome-banner p {
     font-size: 1rem;
   }
-
-  .student-list-container {
+.student-list-container {
     padding: 0.5rem;
   }
 
@@ -227,18 +233,6 @@ body {
 
   .add-student-btn {
     text-align: center;
-  }
-
-  .student-table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .student-table th,
-  .student-table td {
-    padding: 0.75rem;
-    min-width: 120px;
   }
 }
 
@@ -260,14 +254,49 @@ body {
     padding: 1rem;
     border-radius: 0.75rem;
   }
-
-  .student-table th,
+.student-table th,
   .student-table td {
     padding: 0.5rem;
     font-size: 0.9rem;
   }
+.view-link {
+  padding: 0.2rem 0.5rem;
+  }
+}
+/* Your Custom Footer Mobile Fix  */
+@media (max-width: 768px) {
+  .foot {
+    margin-top: 50px;
+    padding: 20px 10px;
 
-  .view-link {
-    padding: 0.2rem 0.5rem;
+    
+  }
+
+  .hed h1,
+  .hed h4 {
+    margin-left: 0 !important;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+  }
+
+  .home {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .our-address,
+  .contact-us,
+  .social-media {
+    margin-left: 0 !important;
+    padding: 10px 0;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .gasabo {
+    margin-left: 0 !important;
   }
 }

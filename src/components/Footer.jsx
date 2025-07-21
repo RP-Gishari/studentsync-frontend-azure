@@ -4,7 +4,7 @@ function Footer() {
     <footer className="foot">
       <div className="hed">
         <h1 className="p1">STUDENTSYNC MANAGEMENT APP</h1>
-        <h4 className="p2">Students management plateform</h4>
+        <h4 className="p2">Students management platform</h4>
       </div>
       <div className="home">
         <div className="our-address">
@@ -50,6 +50,7 @@ function Footer() {
           <img src="src/assets/f7.png" alt="Youtube" className="Image" />
         </div>
       </div>
+      <hr className="footer-separator" />
       <div className="cop">&copy; Studentsync.All rights reserved.</div>
     </footer>
   );
