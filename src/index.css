@@ -67,7 +67,13 @@ button:focus-visible {
   }
 }
 .flex-container {
-  background-color: #f9fbfc;
+  /* background-color: #f9fbfc; */
+  background-color: #535bf2;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+
   padding: 60px 30px;
   border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -79,7 +85,6 @@ button:focus-visible {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 14px;
-
 }
 
 .managements {
@@ -95,16 +100,11 @@ button:focus-visible {
   display: flex;
   gap: 44px;
   justify-content: center;
-  flex-wrap: wrap;
-  padding-left: 30px;
-  
-  
+  /* padding-left: 30px;
 }
-.firstCard{
-  margin-left:-400px;
-  padding: 10px 10px;
-
-  
+.firstCard {
+  /* margin-left: -400px; */
+  /* padding: 10px 10px; */
 }
 .firstCard,
 .thirdCard {
@@ -113,7 +113,7 @@ button:focus-visible {
   border: 1px solid #dce6f0;
   border-radius: 16px;
   padding: 25px;
-  width: 400px;
+  /* width: 400px; */
   transition: box-shadow 0.3s ease;
 }
 
@@ -123,89 +123,95 @@ button:focus-visible {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.hp1  {
+/* .hp1 {
   font-size: 12px;
   line-height: 1.6;
   text-align: left;
-}
+} */
 
 .secondCard {
   background-color: #67629d;
   border: 1px solid #dce6f0;
   color: white;
   border-radius: 16px;
-  padding: 25px;
-  width: 350px;
-  height: 220px;
-  transition: box-shadow 0.3s ease;
-  margin-left: -70px;
-  
+  /* padding: 25px; */
+  /* width: 350px; */
+  /* height: 220px; */
+  /* transition: box-shadow 0.3s ease; */
+  /* margin-left: -70px; */
 }
-.thirdCard{
-  margin-top: -267px;
-  margin-left: 750px;
-  width: 350px;
-  height: 220px;
+.thirdCard {
+  /* margin-top: -267px; */
+  /* margin-left: 750px; */
+  /* width: 350px; */
+  /* height: 220px; */
   /* Width:517px;
   Height:288px; */
-   Border-radius:16px;
-   
-  
-  
+  border-radius: 16px;
 }
 
-
-.thirdCard-image {
+/* .thirdCard-image {
   width: 40px;
   height: 40px;
   margin-bottom: 8px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius:  8px;
   margin-top: px;
 }
-.secondCard-image2{
-   width: 44px;
+.secondCard-image2 {
+  width: 44px;
   height: 42px;
   margin-bottom: 8px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius:  8px;
   margin-top: -5px;
   margin-left: -5px;
 }
-.image2-p1{
-  margin-top:-42px ;
+.image2-p1 {
+  margin-top: -42px;
   margin-left: 50px;
-  font-size:18px;
-  line-height:100%
-
-  
+  font-size: 18px;
+  line-height: 100%;
 }
-.image2-p2{
-  margin-top:40px;
-  margin-left:-5px;
-  font-family:'Times New Roman', Times, serif;
+.image2-p2 {
+  margin-top: 40px;
+  margin-left: -5px;
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   font-weight: 100;
 }
-.img1-p1{
-  margin-top:-30px;
-  margin-left:70px ;
-  
+.img1-p1 {
+  margin-top: -30px;
+  margin-left: 70px;
 }
-.img1-p2{
-  margin-top:25px;
-  margin-left:-5px ;
-  font-family:'Times New Roman', Times, serif;
-   font-size: 14px;
-}
-.img3-p1{
-  margin-top:-50px;
-  margin-left:70px;
+.img1-p2 {
+  margin-top: 25px;
+  margin-left: -5px;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
 }
-.img3-p2{
-margin-top:20px;
-  margin-left:-5px;
-  font-size: 12px;
+.img3-p1 {
+  margin-top: -50px;
+  margin-left: 70px;
+  font-size: 14px;
 }
-
+.img3-p2 {
+  margin-top: 20px;
+  margin-left: -5px;
+  font-size: 12px;
+} */
+.first-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  background-color: white;
+  max-width: 517px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.card-content {
+}
